@@ -9,3 +9,12 @@ Ex : https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233
   Pass Imdb Media Url as a file parameter to API
   
   EX : `https://imdb-image-api.vercel.app/api/?file=https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233`
+  
+  Response as json
+  
+  `
+  {
+"src": "https://m.media-amazon.com/images/M/MV5BNmQyOTNmY2UtZTBhNi00NzNlLWIxOWEtYzhkODVkZWYwZGY5XkEyXkFqcGdeQXVyMTEzNzg0Mjkx.jpg",
+"api developer": "unknown"
+}
+`
