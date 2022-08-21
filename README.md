@@ -1,2 +1,1 @@
-# imdb-image-api
-Unofficial IMDB Image Api
+# Unofficial IMDB Image Api
