@@ -13,8 +13,15 @@
     <div>
             <p>Free IMDB Image API [ only supports with imdb media gallery urls]</p><br><br>
             <p>API Endpoint : https://imdb-image-api.vercel.app/api/?file=https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233</p><br>
-        </div>
     </div>
+
+    <script>
+        fetch('https://imdb-image-api.vercel.app/api/?file=https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233')
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+
+    </script>
+
 </body>
 
 </html>

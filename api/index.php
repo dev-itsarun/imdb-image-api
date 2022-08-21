@@ -17,7 +17,8 @@ if (!empty($file)) {
     $final_source = str_replace("._V1_FMjpg_UX1000_", "", $src);
 
     $data = ["src" => $final_source , "api developer" => "unknown"];
-
+    
+    header("Access-Control-Allow-Origin: *");
     header("Content-type: application/json; charset=utf-8");
 
     echo json_encode($data);
