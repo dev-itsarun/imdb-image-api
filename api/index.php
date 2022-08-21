@@ -16,12 +16,13 @@ if (!empty($file)) {
 
     $final_source = str_replace("._V1_FMjpg_UX1000_", "", $src);
 
-    $image = imagecreatefromjpeg($final_source);
+    $data = ["src" => $final_source , "api developer" => "unknown"];
 
-    header('Content-type: image/jpeg');
+    header("Content-type: application/json; charset=utf-8");
 
-    imagejpeg($image);
-    imagedestroy($image);
+    echo json_encode($data);
+
+
 } 
 else {
     http_response_code(400);
