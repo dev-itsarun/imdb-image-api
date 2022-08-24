@@ -8,6 +8,8 @@ Ex imdb media url : https://www.imdb.com/title/tt10701074/mediaviewer/rm30062072
 
 **Images can be easily Embed anywhere directly using `<img>`  tag**
 
+[ It returns the very high quality image , so images may load slow on your site ]
+
 ## How to use :
   Pass Imdb Media Url as a file parameter to API
   EX : 
