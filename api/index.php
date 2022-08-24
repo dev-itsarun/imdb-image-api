@@ -1,5 +1,4 @@
 <?php
 
 //error_reporting(0);
-
-var_dump(gd_info());
+if(extension_loaded('gd')){echo "loaded";}
