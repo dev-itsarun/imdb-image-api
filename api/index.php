@@ -2,4 +2,4 @@
 
 //error_reporting(0);
 
-echo phpinfo();
+var_dump(gd_info());
