@@ -1,20 +1,22 @@
-# Unofficial IMDB Image Api [May Be Use Full]
+# IMDB Image Api [May Be Useful] [ Unofficial ]
 
-only Works with IMDB Media Gallery URL's 
+only Works with IMDB Media Gallery URL's
 
 Ex : https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233
 
 ## How to use :
 
   Pass Imdb Media Url as a file parameter to API
-  
-  EX : `https://imdb-image-api.vercel.app/api/?file=https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233`
-  
-  Response as json
-  
-  `
-  {
-"src": "https://m.media-amazon.com/images/M/MV5BNmQyOTNmY2UtZTBhNi00NzNlLWIxOWEtYzhkODVkZWYwZGY5XkEyXkFqcGdeQXVyMTEzNzg0Mjkx.jpg",
-"api developer": "unknown"
-}
-`
+  EX : 
+  `https://imdb-image-api.vercel.app/api/?file=https://www.imdb.com/title/tt10701074/mediaviewer/rm3006207233`
+
+  Response as image [jpeg]
+
+## Hosted @ Vercel.com:
+
+Host this yourself on vercel for free , click the deploy button below
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdev-itsarun%2Fimdb-image-api)
+
+
+------------
