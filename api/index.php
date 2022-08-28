@@ -2,4 +2,4 @@
 
 error_reporting(0);
 
-echo $_SERVER['testenv'];
+echo getenv('testenv');
